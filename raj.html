@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AVV College President Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: #f4f4f4;
+            color: #222;
+        }
+        header {
+            width: 100%;
+            background: linear-gradient(135deg, #003973, #e5e5be);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            animation: fadeDown 1.2s ease-in-out;
+        }
+        header h1 {
+            font-size: 3rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px;
+        }
+        .section {
+            background: white;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        .section:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 25px rgba(0,0,0,0.15);
+        }
+        .section h2 {
+            margin-bottom: 15px;
+            color: #003973;
+        }
+        .about img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin-bottom: 20px;
+        }
+        .skills span {
+            display: inline-block;
+            background: #003973;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9rem;
+        }
+        @keyframes fadeDown {
+            from { opacity: 0; transform: translateY(-40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .instagram {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .instagram a {
+            background: #E1306C;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .instagram a:hover {
+            background: #b32454;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #003973;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Raj Pandey</h1>
+        <p>President, AVV College</p>
+    </header>
+
+    <div class="container">
+
+        <div class="section about">
+            <h2>About Me</h2>
+            <img src="https://via.placeholder.com/180" alt="President Photo" />
+            <p>
+                I am the President of AVV College with academic
+                leadership, student development, and institutional growth. My goal is to
+                create an inspiring learning environment where students thrive.
+            </p>
+        </div>
+
+        <div class="section education">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of business administrator - AAV COLLEGE</li>
+               
+            </ul>
+        </div>
+
+     
+        <div class="section achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Established new Entrepreneurship Cell</li>
+                <li>Improved student placement rate by 40%</li>
+                <li>Introduced Digital Campus Initiative</li>
+            </ul>
+        </div>
+
+        <div class="section skills">
+            <h2>Skills</h2>
+            <span>Leadership</span>
+            <span>Public Speaking</span>
+            <span>Strategic Planning</span>
+            <span>Team Management</span>
+            <span>Innovation</span>
+        </div>
+
+        <div class="section contact">
+            <h2>Contact</h2>
+            <p>Email: rajsingh@example.com</p>
+            <p>Phone: +91 97016825207</p>
+            <p>LinkedIn: linkedin.com/in/raj-singh</p>
+            <div class="instagram">
+                <a href="https://www.instagram.com/gj05_wale?igsh=YXZuMWNhZXB1OW84" target="_blank">Follow on Instagram</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2025 Raj pandey | President, AVV College
+    </footer>
+</body>
+</html>
